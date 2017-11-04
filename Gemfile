@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.2'
 gem 'devise'
 gem 'milia', github: 'jekuno/milia', ref: '05b72dd'
 gem 'aws-sdk'
+gem 'stripe'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

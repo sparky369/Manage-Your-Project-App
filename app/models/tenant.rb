@@ -5,6 +5,8 @@ class Tenant < ApplicationRecord
   validates_presence_of :name
   validates_uniqueness_of :name
   has_many :projects, dependent: :destroy
+  has_one :payment
+  accepts_nested_attributes_for :payment
 
 
     def can_create_projects?
